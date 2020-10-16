@@ -6,8 +6,8 @@ Hi! Welcome to my website! <br><br>
 As a current student at McGill University in Physics and Computer Science, I am passionate about information technology and problem-solving. 
 I love puzzles and challenges, so if you have an unsolvable enigma for me, I am your guy! 
 <br><br>
-Before I go on, and because I am sure that is what you are interested in, here is my <a href="https://robinlmn.github.io/docs/robin-leman-resume.pdf" target="_blank">Resume</a> 
-and <a href="https://robinlmn.github.io/docs/robin-leman-transcript.pdf" target="_blank">School Transcript</a>.
+Before I go on, and because I am sure that is what you are interested in, here is my <a href="https://robinlmn.github.io/pdf/robin-leman-resume.pdf" target="_blank">Resume</a> 
+and <a href="https://robinlmn.github.io/pdf/robin-leman-transcript.pdf" target="_blank">School Transcript</a>.
 <br><br>
 I am curious and eager to learn: always looking for new experiences and new skills to acquire. If you are looking for me, you will probably find me on youtube 
 watching new tutorials or reading science blogs and Wikipedia pages. 
