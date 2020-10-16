@@ -22,6 +22,8 @@ a positive influence on the planet.
 <br><br>
 I would love to connect with you, either on <a href="https://www.linkedin.com/in/robin-leman-a5043816b/" target="_blank">LinkedIn</a> or 
 by <a href="mailto:robin.leman@mail.mcgill.ca" target="_blank">Mail</a>, so don't hesitate to reach out!
+<br><br><br><br>
+<i> This website has been made from scratch with Vue.js by me. You can find its source code <a href="https://github.com/RobinLmn/robinlmn.github.io" target="_blank">here</a></i>.
 
         </div>
     </intro>
