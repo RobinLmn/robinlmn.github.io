@@ -8,20 +8,22 @@
   src: url(Commissioner.ttf);
 }
 
+menu {
+  font-size: 30px;
+}
+
 div {
     font-family: Commissioner
   }
 
 .button {
-  background-color: none
-  ;
+  background-color: none;
   border: none;
   color: black;
   padding: 7px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -34,6 +36,47 @@ p {
   margin-left: 400px;
 }
 
+.dropdown {
+  padding: 7px 32px;
+  margin: 0px 2px;
+  display: inline;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  font-size: inherit;
+  position: absolute;
+  outline: none;
+  color: black;
+  padding: 14px 14px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: inherit;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(61, 61, 61);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+  margin-left: -100px;
+  margin-top: 40px;
+}
+
 </style>
 
 <script src="https://kit.fontawesome.com/91ce094460.js" crossorigin="anonymous"></script>
@@ -41,23 +84,38 @@ p {
 </head>
 <body>
 
-  <div>
 <center>
+
 <h1><br>ROBIN LEMAN</h1>
 
-<h2> 
-  <a href="mailto:robin.leman@mail.mcgill.ca"><i class="fas fa-envelope"></i></a>&nbsp &nbsp
-  <a href="https://github.com/RobinLmn"><i class="fab fa-github"></i></a>&nbsp &nbsp
-  <a href="https://www.linkedin.com/in/robin-leman-a5043816b/"><i class="fab fa-linkedin"></i></a>&nbsp &nbsp
-  <a href="https://devpost.com/RobinLmn"><i class="fab fa-dev"></i> </i></h2></a>
+<h2>
+  
+<a href="mailto:robin.leman@mail.mcgill.ca"><i class="fas fa-envelope"></i></a>&nbsp &nbsp
+<a href="https://github.com/RobinLmn"><i class="fab fa-github"></i></a>&nbsp &nbsp
+<a href="https://www.linkedin.com/in/robin-leman-a5043816b/"><i class="fab fa-linkedin"></i></a>&nbsp &nbsp
+<a href="https://devpost.com/RobinLmn"><i class="fab fa-dev"></i></a></h2>
 
-<a href= "https://robinlmn.github.io" class="button"> Home </a>
-<a href="https://robinlmn.github.io/docs/robin-leman-resume.pdf" class="button"> Resume </a>
-<a href="https://robinlmn.github.io/docs/robin-leman-transcript.pdf" class="button"> Transcript </a>
-<a href="https://robinlmn.github.io/projects" class="button"> Projects </a>
-<br>
+<div class="menu">
+
+<a href= "https://robinlmn.github.io" class="button">Home</a>
+<a href="https://robinlmn.github.io/docs/robin-leman-resume.pdf" class="button">Resume</a>
+<a href="https://robinlmn.github.io/docs/robin-leman-transcript.pdf" class="button">Transcript</a>
+
+<div class="dropdown">
+<button class="dropbtn">Projects</button>
+<div class="dropdown-content">
+  <a href="https://robinlmn.itch.io>Video Games"</a>
+  <a href="https://github.com/RobinLmn/catallaxy_challenge">Cryptocurrencies Hash Calculator</a>
+  <a href="https://github.com/RobinLmn/McHacks7_re-ycle">Re&ltycle</a>
+  <a href="https://github.com/RobinLmn/md5-decryption-crackingchallenge">Cybersecurity</a>
+
+</div>
+</div>
+</div>
 
 </center>
+
+
 <h1><hr></h1>
 
 <p>Hi! Welcome to my website! <br><br>
