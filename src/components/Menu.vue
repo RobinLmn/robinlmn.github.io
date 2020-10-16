@@ -1,9 +1,9 @@
 <template>
     <menu>
         <div class="menu-item"><a href="https://robinlmn.github.io" target="_blank">Home</a></div>
+        <Dropdown title="Projects" :items="projects" />
         <div class="menu-item"><a href="https://robinlmn.github.io/pdf/robin-leman-resume.pdf" target="_blank">Resume</a></div>
         <div class="menu-item"><a href="https://robinlmn.github.io/pdf/robin-leman-transcript.pdf" target="_blank">Transcript</a></div>
-        <Dropdown title="Projects" :items="projects" />
     </menu>
 </template>
 
