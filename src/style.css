@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Commissioner;
+    src: url(./components/Commissioner.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Commissioner';
+}
+
+header {
+    width: 100vw;
+    background-color: #222222;
+    padding: 7px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+menu .menu-item {
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    display: flex;
+    transition: 0.4s;
+}
+
+menu .menu-item a {
+    color:  inherit;
+    text-decoration: none;
+}
+
+menu .menu-item.active,
+menu .menu-item:hover{
+    border-bottom-color: white;
+}
+
+menu .menu-item .sub-menu {
+    position: absolute;
+    background-color:gray;
+    top: calc(100% + 18px);
+    transform: translateX(-50%);
+    left: 50%;
+    width: max-content;
+}
+
+menu .menu-item .sub-menu-item {
+    background-color: white;
+    border-color: #222222;
+    color: #222222;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    border: 3px solid transparent;
+    transition: 0.4s;
+    text-align: center;
+}
+
+menu .menu-item .sub-menu-item:hover {
+    border-bottom-color:#222222;
+}
+
+name .name{
+    padding: 45px 0px 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+name .allicons{
+    font-size: 25px;
+    text-align: center;
+}
+name .icons{
+    padding: 0px 0px 10px 30px;
+    display: inline-block;
+}
+
+name a:link{
+    color: #222222 ;
+}
+
+name a:visited{
+    color: #222222;
+}
+
+intro a:link{
+    color: black ;
+}
+
+intro a:visited{
+    position: relative;
+    color: black;
+}
+
+intro .p {
+    text-align: justify;
+    margin-top: 45px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
