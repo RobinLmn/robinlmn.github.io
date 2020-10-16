@@ -55,9 +55,9 @@ menu .menu-item .sub-menu {
 }
 
 menu .menu-item .sub-menu-item {
-    background-color: white;
+    background-color: #222222;
     border-color: #222222;
-    color: #222222;
+    color: white;
     padding: 10px 20px;
     position: relative;
     text-align: center;
@@ -67,7 +67,7 @@ menu .menu-item .sub-menu-item {
 }
 
 menu .menu-item .sub-menu-item:hover {
-    border-bottom-color:#222222;
+    border-bottom-color:white;
 }
 
 name .name{
@@ -94,12 +94,12 @@ name a:visited{
 }
 
 intro a:link{
-    color: black ;
+    color: rgb(99,61,174);
 }
 
 intro a:visited{
     position: relative;
-    color: black;
+    color:  rgb(99,61,174);
 }
 
 intro .p {
