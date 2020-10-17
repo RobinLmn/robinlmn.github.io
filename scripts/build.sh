@@ -6,7 +6,7 @@ then
 	rm -r ../docs
 	npm run build
 	mv ../dist ../docs
-	cp ../pdf ../docs
+	cp -R ../pdf ../docs
 	for f in $(ls ../favicon)
 	do
 		cp ../favicon/$f ../docs
