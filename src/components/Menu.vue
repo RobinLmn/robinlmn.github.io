@@ -20,7 +20,7 @@ export default {
             projects: [
                 {
                     title: 'Video Games',
-                    link: 'https://robinlmn.itch.io'
+                    link: 'videogames.html'
                 },
                 {
                     title: 'Cybersecurity',

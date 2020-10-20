@@ -1,14 +1,14 @@
 <template>
     <name>
         <div class="name">
-            ROBIN LEMAN    
+            ROBIN LEMAN
         </div>
         <div class="allicons">
             <div v-for="(icon, i) in icons" :key="i" class="icons">
                 <a :href="icon.link" target="_blank"><i :class="icon.ic"></i></a>
             </div>
         </div>
-        <hr>
+            <hr>
     </name>
 </template>
 
