@@ -1,6 +1,6 @@
 @font-face {
     font-family: Commissioner;
-    src: url(./components/Commissioner.ttf);
+    src: url(assets/Commissioner.ttf);
 }
 
 * {
@@ -93,18 +93,26 @@ name a:visited{
     color: #222222;
 }
 
-intro a:link{
-    color: rgb(99,61,174);
-}
-
-intro a:visited{
-    position: relative;
-    color:  rgb(99,61,174);
-}
-
-intro .p {
+introtext .intro{
     text-align: justify;
     margin-top: 45px;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+introtext a:link{
+    color: rgb(99,61,174);
+}
+
+introtext a:visited{
+    position: relative;
+    color:  rgb(99,61,174);
+}
+
+videogames .name{
+    margin-top: 30px;
+    margin-left: 10%;
+    padding: 0px 10px 0px;
+    text-align: left;
+    font-size: 30px;
 }
