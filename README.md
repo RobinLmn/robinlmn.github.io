@@ -11,7 +11,7 @@ The root of the website is set up as the /docs folder where you can find the bui
 
 # TO-DO List
 
-- [-] Page for the Re<ycle project
-- [-] Page for the Cryptocurrency project
-- [-] Page for the Cybersecurity project
-- [-] UX : Color the clickable icons
+- [ ] Page for the Re<ycle project
+- [ ] Page for the Cryptocurrency project
+- [ ] Page for the Cybersecurity project
+- [ ] UX : Color the clickable icons
