@@ -13,10 +13,8 @@
     <introtext>
     <div class="intro">
       In September 2020, <a href="https://www.gamedevmcgill.ca" target="_blank">GameDev McGill</a> started one of its biggest project; creating a free and open source 3D game engine based on the
-      Entity Component System (ECS) architecture. The Scarlet Engine was still missing one key feature: movement. 
-      <br></br>
-      I created Achilles as a Physics Engine for Scarlet, and all of the demos shown below were made
-      on this engine. It is however versatile enough to be applied to any other render engine. Since Scarlet is made in ECS, Achilles follows the same architecture.
+      Entity Component System (ECS) architecture. Achilles was created as a Physics Engine for Scarlet, and all of the demos shown below were made on this engine. It is however versatile enough to be 
+      applied to any other render engine. Since Scarlet is made in ECS, Achilles follows the same architecture.
       <br></br>
       You can find the source code of the engine <a href="https://github.com/Scarlet-Engine-Team-GameDev-McGill/Scarlet-Engine" target="_blank">here</a>.
     </div>
@@ -50,12 +48,16 @@
     <introtext>
     <div class="intro">
       Once you have dynamics, an important feature of a physics engine is collisions. I implemented discrete collision detection for basic shapes such as spheres, planes and AABBs. Once a collision is detected,
-      collision response is used to reflect the velocitiies of the objects along the collision normal. A way of improving this type of collision is to make them continuous. This interpolates the collision in case 
-      it happens in between two frames. Custom shapes collisions can be implemented with raycasts.
+      collision response is used to reflect the velocities of the objects along the collision normal. 
       <br></br>
+      The next steps are to make collision detection continuous, in case a collision happens in between two frames, and to generalize the collision shapes to polygons. This could be achieved
+      using raycasts.
+      <br></br>
+      <center>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/4atD1sCYKqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       &nbsp;
      <iframe width="560" height="315" src="https://www.youtube.com/embed/K5Abe1FOYZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
       </div>
     </introtext>
 
@@ -70,7 +72,7 @@
       For now, we only saw the implementation of rigidbodies. Such bodies actually never exist in real life, even if they are a good approximation for video games. Actually, every object is deformable. Springs
       are the fundation of softbodies; they simulate the liasions between the molecules of an object.
       <br></br>
-      Shown below is a simple spring linking a ball and an anchor (the anchor was not rendered, but you can see its transform on the video). 
+      Shown below is a simple spring linking a ball to an anchor (the anchor was not rendered, but you can see its transform on the video). 
       <br></br>
       <center>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/TN5KFZ5XHmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,14 +85,14 @@
       </center>
       <br></br>
       A 2-dimensional spring structure will simulate a cloth. Below is an example of a flag, the left nodes are connected to anchors, and the nodes are connected vertically, horizontally and
-      diagonally by springs to each other.
+      diagonally by springs to each other. This is the usual way of doing cloth simulation.
       <br></br>
       <center>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/OkWwOq8uyxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
       </center>
       <br></br>
-      Finally, a 3-dimensional spring will create a generalized softbody. This can be used to simulate jelly or slimes for example. This uses a microstate implementation of softbodies; simulating the link between
-      every molecule. A way of optimizing the simulation would be to interpret the softbody at a macrostate level, simulating internal pressure abstractly with the ideal gas law.
+      Finally, a 3-dimensional spring will create a generalized softbody. This can be used to simulate jelly or slimes for example. This uses a microstate interpretation of softbodies; simulating the link between
+      every molecule. This is highly non-optimized, as you need to simulate every internal node. A way of optimizing it would be to interpret the softbody at a macrostate level, simulating internal pressure abstractly with the ideal gas law.
       <br></br>
       <center>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/4SG7SscPM70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
