@@ -13,6 +13,13 @@ module.exports = {
       template: 'public/index.html',
       title: 'VideoGames',
       chunks: [ 'chunk-vendors', 'chunk-common', 'videogames' ]
+    },
+    'achilles': {
+      entry: './src/pages/achilles/main.js',
+      filename: 'achilles.html',
+      template: 'public/index.html',
+      title: 'Achilles',
+      chunks: [ 'chunk-vendors', 'chunk-common', 'achilles' ]
     }
   }
 }
