@@ -5,13 +5,15 @@
       As a current student at McGill University in Physics and Computer Science, I am passionate about information technology and problem-solving. 
       I love puzzles and challenges, so if you have an unsolvable enigma for me, I am your guy! 
       <br><br>
-      Before I go on, and because I am sure that is what you are interested in, here is my <a href="https://robinlmn.github.io/pdf/robin-leman-resume.pdf" target="_blank">Resume</a> 
-      and <a href="https://robinlmn.github.io/pdf/robin-leman-transcript.pdf" target="_blank">School Transcript</a>.
+      Before I go on, and because I am sure that is what you are interested in, here is my <a href="https://robinlmn.github.io/pdf/robin-leman-resume.pdf" target="_blank">Resume</a>.
       <br><br>
       I am curious and eager to learn: always looking for new experiences and new skills to acquire. If you are looking for me, you will probably find me on youtube 
       watching new tutorials or reading science blogs and Wikipedia pages. 
       <br><br>
-      I love  <a href="https://github.com/filrod/UbisoftGameLabMcGill_2" target="_blank">game development</a> to the point where I prefer making games than playing them. 
+      I love  <a href="https://github.com/filrod/UbisoftGameLabMcGill_2" target="_blank">game development</a> to the point where I prefer making games than playing them. I created 
+      <a href="https://robinlmn.github.io/achilles.html" target="_blank">Achilles</a>, a 3D Physics Engine in ECS, with translational and rotational dynamics, collision detection and 
+      response, and a simple spring system for softbody simulation.
+      <br><br>
       I'm passionate about <a href="https://github.com/RobinLmn/md5-decryption-crackingchallenge" target="_blank">cybersecurity</a>: it probably comes from my brother, 
       who used to design me hacking challenges and bought me a textbook on ethical hacking when I was ten.
       <br><br>
