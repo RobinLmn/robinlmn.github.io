@@ -18,24 +18,24 @@ export default {
         return {
             projects: [
                 {
+                    title: 'Debris Disk Simualtion',
+                    link: 'https://github.com/RobinLmn/DebrisDiskSimulation'
+                },
+                {
                     title: 'Achilles - Physics Engine',
                     link: 'achilles.html'
                 },
                 {
-                    title: 'Video Games',
+                    title: 'Multithreaded Raytracer in C++',
+                    link: 'https://github.com/RobinLmn/Multithreaded-Raytracer'
+                },
+                {
+                    title: 'Meme Popularity Predictor',
+                    link: 'https://github.com/RobinLmn/ML-MemePopularity'
+                },
+                {
+                    title: 'Video Game Projects',
                     link: 'videogames.html'
-                },
-                {
-                    title: 'Cybersecurity',
-                    link: 'https://github.com/RobinLmn/md5-decryption-crackingchallenge'
-                },
-                {
-                    title: 'Re<ycle',
-                    link: 'https://github.com/RobinLmn/McHacks7_re-ycle'
-                },
-                {
-                    title: 'Cryptocurrencies Calculator',
-                    link: 'https://github.com/RobinLmn/catallaxy_challenge'
                 }
             ]
         }
