@@ -3,7 +3,7 @@
     <div class="intro">
       Welcome to my website!
       <br><br>
-      My name is Robin; I am a passionate game developer with expertise in C++ and Unreal Engine 5. I am actively seeking Gameplay or Engine programming opportunities in the gaming industry. 
+      My name is Robin; I am a passionate game developer with expertise in C++ and Unreal Engine 5. I am currently a Gameplay Engineer at Relic Entertainment, an Electronic Arts studio. 
       With a strong background in physics and computer science, I bring a unique blend of technical knowledge and creativity to my work!
       <br><br>
       Throughout my career, I had the privilege of working with renowned studios like Relic Entertainment (SEGA), The Coalition (Microsoft Xbox), and Ubisoft. 
@@ -20,7 +20,7 @@
       I am also a dedicated volunteer with the Red Cross, where I served as an emergency responder, certified in Emergency First Aid CPR (Level C).
       <br><br>
       If you are looking for a passionate and dedicated game developer with a strong foundation in C++ and Unreal Engine 5, I would love to connect and discuss how I can contribute to your team. 
-      Feel free to reach me through <a href="https://www.linkedin.com/in/robin-leman/" target="_blank">LinkedIn</a> or by <a href="mailto:robin.leman@mail.mcgill.ca" target="_blank">e-mail</a>.
+      Feel free to reach me through <a href="https://www.linkedin.com/in/robin-leman/" target="_blank">LinkedIn</a> or by <a href="mailto:jobs@robinleman.com" target="_blank">e-mail</a>.
       <br><br>
       Thank you for visiting, and I look forward to exciting opportunities ahead!
    </div>
