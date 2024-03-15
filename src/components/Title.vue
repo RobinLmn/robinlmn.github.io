@@ -22,7 +22,7 @@ export default {
             icons: [
                 {
                     ic: 'fas fa-envelope',
-                    link: 'mailto:robin.leman@mail.mcgill.ca'
+                    link: 'mailto:jobs@robinleman.com'
                 },
                 {
                     ic: 'fab fa-github',
