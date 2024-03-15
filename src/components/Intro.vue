@@ -7,7 +7,7 @@
       With a strong background in physics and computer science, I bring a unique blend of technical knowledge and creativity to my work!
       <br><br>
       Throughout my career, I had the privilege of working with renowned studios like Relic Entertainment (SEGA), The Coalition (Microsoft Xbox), and Ubisoft. 
-      You can learn more about my experience by reading my <a href="https://robinleman.com/resume.pdf" target="_blank">Resume</a>.
+      You can learn more about my experience by reading my <a href="https://robinleman.com/robin-leman-resume.pdf" target="_blank">Resume</a>.
       <br><br>
       I hold a Bachelor of Science in Physics and Computer Science from McGill University. As an avid learner, I have worked on personal projects pushing my knowledge of game development. 
       Working with an astrophysics lab at McGill, I developed <a href="https://github.com/RobinLmn/DebrisDiskSimulation" target="_blank">a 3D rendering engine</a> to visualize debris disks in solar systems. 

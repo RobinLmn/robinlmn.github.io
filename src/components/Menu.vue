@@ -2,7 +2,7 @@
     <menu>
         <div class="menu-item"><a href="https://robinleman.com" target="_blank">Home</a></div>
         <Dropdown title="Projects" :items="projects" />
-        <div class="menu-item"><a href="https://robinleman.com/resume.pdf" target="_blank">Resume</a></div>
+        <div class="menu-item"><a href="https://robinleman.com/robin-leman-resume.pdf" target="_blank">Resume</a></div>
     </menu>
 </template>
 
