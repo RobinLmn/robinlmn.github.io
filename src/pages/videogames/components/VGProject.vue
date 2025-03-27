@@ -1,9 +1,7 @@
 <template> 
     <vg>
             <div class="videogames">
-            <div class="p"><p>Here are the video games I worked on, with a demo video (or build if you want to bring out
-                your inside gamer) and the source code. I don't have that much video game projects, but I still wanted to learn and experience on a search bar 
-                feature on Vue.js, so feel free to search for one of the games with it :)
+            <div class="p"><p>Here are some of the video games I worked on during university. I also wanted to try to implement a search bar in Vue.js, so feel free to use it!
                 </p></div>
             <div class="searchBar">
                 <input type="text" v-model="search" placeholder="Search Project.."/>
