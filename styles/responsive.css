@@ -1,5 +1,14 @@
 /* Responsive Design */
 @media (max-width: 768px) {
+    .nav-brand {
+        display: none;
+    }
+
+    .navbar {
+        padding: 1rem;
+        justify-content: center;
+    }
+
     .nav-links {
         gap: 1rem;
     }
